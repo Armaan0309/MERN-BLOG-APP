@@ -1,0 +1,30 @@
+.wrapper{
+    padding: 30px;
+    text-align: center;
+}
+.wrapper h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.blogList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blogList div{
+    padding: 10px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+}
+.icons{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: orangered;
+}
